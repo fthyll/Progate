@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-    totalScore := 0
+	totalScore := 0
 	ask(1, "anjing")
 	ask(2, "kucing")
 	ask(3, "ikan")
@@ -20,7 +20,7 @@ func ask(number int, question string) {
 		fmt.Println("Benar!")
 		// Tambahkan 10 ke totalScore
 		totalScore += 10
-		
+
 	} else {
 		fmt.Println("Salah!")
 	}
