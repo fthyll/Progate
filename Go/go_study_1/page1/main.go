@@ -1,6 +1,6 @@
 package main
 
 func main() {
-    // Ubah "world" menjadi "Go" dibawah ini
-    println("Hello, Go")
+	// Ubah "world" menjadi "Go" dibawah ini
+	println("Hello, Go")
 }
