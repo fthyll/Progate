@@ -8,3 +8,4 @@ end
 puts "-----Perkenalan diri-----"
 # Panggil method introduce
 introduce
+
