@@ -1,6 +1,7 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 
+
 CREATE TABLE IF NOT EXISTS "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "gender" integer,"age" integer);
 INSERT INTO users VALUES
 (1,"Giana",1,17),(2,"Diann",1,22),(3,"Antonella",1,22),(4,"Jodi",0,29),(5,"Fredra",1,54),(6,"Katheryn",1,25),(7,"Billie",0,21),(8,"Fawn",1,59),(9,"Caroline",1,47),(10,"Nichol",1,26),(11,"Else",1,25),(12,"Leigh",1,20),(13,"Virgie",0,63),(14,"Lorilee",1,39),(15,"Dorolisa",1,22),(16,"Olly",0,36),(17,"Marcelle",1,16),(18,"Lisetta",1,27),(19,"Donall",0,28),(20,"Eveline",1,41),(21,"Ailbert",0,25),(22,"Gannon",0,28),(23,"Lyn",0,18),(24,"Granger",0,25),(25,"Karleen",1,37),(26,"Heddie",1,24),(27,"Appolonia",1,37),(28,"Grazia",1,40),(29,"Herrick",0,21),(30,"Madelin",1,31),(31,"Marjory",1,47),(32,"Ronnie",1,29),(33,"Fabiano",0,31),(34,"Howey",0,35),(35,"Jordanna",1,25),(36,"Harlin",0,62),(37,"Lay",0,44),(38,"Carina",1,27),(39,"Maisey",1,21),(40,"Armand",0,19),(41,"Chadd",0,24),(42,"Toby",1,16),(43,"Burch",0,33),(44,"Tobye",1,19),(45,"Wilbert",0,24),(46,"Leif",0,35),(47,"Khalil",0,29),(48,"Giffie",0,23),(49,"Bryana",1,20),(50,"Leon",0,27),
