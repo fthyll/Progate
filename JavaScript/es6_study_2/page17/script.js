@@ -18,3 +18,4 @@ console.log("Menu Rekomendasi");
 for (let i = 0; i < cafe.menu.length; i++){
   console.log(cafe.menu[i]);
 }
+
