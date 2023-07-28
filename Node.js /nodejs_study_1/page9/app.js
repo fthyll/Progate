@@ -3,7 +3,6 @@ const app = express();
 
 app.use(express.static('public'));
 
-
 // Hapus sampai di sini
 
 // Ganti URL milik route ke URL root
